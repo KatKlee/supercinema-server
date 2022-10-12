@@ -1,144 +1,144 @@
 [
     {
-        "id": "001",
+        "id": 1,
         "category": "Parkett",
         "price": 5,
         "state": true
     },
     {
-        "id": "002",
+        "id": 2,
         "category": "Parkett",
         "price": 5,
         "state": true
     },
     {
-        "id": "003",
+        "id": 3,
         "category": "Parkett",
         "price": 5,
         "state": true
     },
     {
-        "id": "004",
+        "id": 4,
         "category": "Parkett",
         "price": 5,
         "state": true
     },
     {
-        "id": "005",
+        "id": 5,
         "category": "Parkett",
         "price": 5,
         "state": true
     },
     {
-        "id": "006",
+        "id": 6,
         "category": "Parkett",
         "price": 5,
         "state": true
     },
     {
-        "id": "007",
+        "id": 7,
         "category": "Parkett",
         "price": 5,
         "state": true
     },
     {
-        "id": "008",
+        "id": 8,
         "category": "Parkett",
         "price": 5,
         "state": true
     },
     {
-        "id": "009",
+        "id": 9,
         "category": "Parkett",
         "price": 5,
         "state": true
     },
     {
-        "id": "010",
+        "id": 10,
         "category": "Parkett",
         "price": 5,
         "state": true
     },
     {
-        "id": "011",
+        "id": 11,
         "category": "Parkett",
         "price": 5,
         "state": true
     },
     {
-        "id": "012",
+        "id": 12,
         "category": "Parkett",
         "price": 5,
         "state": true
     },
     {
-        "id": "013",
+        "id": 13,
         "category": "Loge",
         "price": 8,
         "state": true
     },
     {
-        "id": "014",
+        "id": 14,
         "category": "Loge",
         "price": 8,
         "state": true
     },
     {
-        "id": "015",
+        "id": 15,
         "category": "Loge",
         "price": 8,
         "state": true
     },
     {
-        "id": "016",
+        "id": 16,
         "category": "Loge",
         "price": 8,
         "state": true
     },
     {
-        "id": "017",
+        "id": 17,
         "category": "Loge",
         "price": 8,
         "state": true
     },
     {
-        "id": "018",
+        "id": 18,
         "category": "Loge",
         "price": 8,
         "state": true
     },
     {
-        "id": "019",
+        "id": 19,
         "category": "Loge",
         "price": 8,
         "state": true
     },
     {
-        "id": "020",
+        "id": 20,
         "category": "Loge",
         "price": 8,
         "state": true
     },
     {
-        "id": "021",
+        "id": 21,
         "category": "Loge",
         "price": 8,
         "state": true
     },
     {
-        "id": "022",
+        "id": 22,
         "category": "Loge",
         "price": 8,
         "state": true
     },
     {
-        "id": "023",
+        "id": 23,
         "category": "Loge",
         "price": 8,
         "state": true
     },
     {
-        "id": "024",
+        "id": 24,
         "category": "Loge",
         "price": 8,
         "state": true

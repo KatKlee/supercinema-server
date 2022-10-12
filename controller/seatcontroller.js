@@ -14,18 +14,20 @@ export const getAllSeats = (req, res) => {
 
 // function to change state of a seat
 export const changeSeatState = (req, res) => {
-    const seat = {
-        id: req.body.id,
-        category: req.body.id,
-        price: req.body.price,
-        state: req.body.state
-    }
+    console.log(req.body.id)
+    const seat = req.body.id
 
     // read file
     readFromFile('data.json')
         .then(data => JSON.parse(data))
         .then(obj => {
-            obj.replace(seat) // geben wir hier an dass der state von true zu false bzw. immer ins gegenteil geändert wird?
+            // Abgleich id === id
+            const sitzplatzAbgleich = obj.find(item => {
+
+                return item.data.id === seat
+            })
+            // dann obj.state=!req.body.state
+
             // erst find (id) und dann können wir den state des entsprechenden seats ändern
             //object.state=false (anstatt replace)
 

@@ -16,8 +16,10 @@ export const readFromFile = (path) => {
 export const writeIntoFile = (path, data) => {
     return new Promise((resolve, reject) => {
         fs.writeFile(path, data, (err) => {
-            if (err)
+            if (err) {
+                console.log('Fehler im writeFile')
                 reject(err)
+            }
             else
                 resolve(true)
         })
