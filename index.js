@@ -18,26 +18,4 @@ app.get('/seats', getAllSeats) // request to get data/state of seat (for overvie
 app.put('/seats', changeSeatState) // request to change state of a seat
 app.post('/api/mail', sendMail)
 
-
-/* const queryFilter = (queryParam, seats, filterFunction) => {
-    if (queryParam) {
-        return seats.filter(filterFunction)
-    } else {
-        return seats
-    }
-}
-
-
-app.get('/result', (req, res) => {
-    const id = req.query.id;
-    const category = req.query.category;
-    const price = req.query.price;
-    const state = req.query.state;
-    let resultSeats = queryFilter(id, seatList, (item) => item.id === id);
-    resultSeats = queryFilter(category, resultSeats, (item) => item.category.toLowerCase() === category)
-    resultSeats = queryFilter(price, resultSeats, (item) => item.price.toString() === price)
-    resultSeats = queryFilter(state, resultSeats, (item) => item.state.toString() === state)
-    res.status(202).json(resultSeats)
-}) */
-
 app.listen(PORT, () => console.log('Server listening on port', PORT))

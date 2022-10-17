@@ -20,20 +20,20 @@ export const changeSeatState = (req, res) => {
     // read file
     readFromFile('data.json')
         .then(data => JSON.parse(data))
-        .then(obj => {
+        .then(data => {
             // Abgleich id === id
-            const sitzplatzAbgleich = obj.find(item => {
-
-                return item.data.id === seat
+            const obj = data.find((item) => {
+                return item.id === seat
             })
-            // dann obj.state=!req.body.state
+            console.log(obj)
 
-            // erst find (id) und dann können wir den state des entsprechenden seats ändern
-            //object.state=false (anstatt replace)
+            // dann state ändern
+            obj.state = !obj.state
+            console.log(obj.state)
 
             //write into file
             // .stringify() method converts the JavaScript value to a JSON string
-            writeIntoFile('data.json', JSON.stringify(obj))
+            writeIntoFile('data.json', JSON.stringify(data))
                 .then(() => res.status(200).end())
                 .catch(err => {
                     console.log(err)
